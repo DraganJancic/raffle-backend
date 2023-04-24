@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "index.ts",
+    "dummy-data/todos.json"
+  ],
+  "ext": "ts,json",
+  "exec": "ts-node index.ts",
+  "restartable": "rs"
+}
