@@ -11,7 +11,7 @@
     "total_ticket_sold": 500,
     "ticket_cost": 1.5,
     "start_date": "2023-05-01T00:00:00.000Z",
-    "end_date": "2023-25-10T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
     "raffler": "alice.near",
     "participants": [
       {
@@ -54,7 +54,7 @@
     "total_ticket_sold": 500,
     "ticket_cost": 1.5,
     "start_date": "2023-05-01T00:00:00.000Z",
-    "end_date": "2023-25-10T00:00:00.000Z",
+    "end_date": "2023-05-09T00:00:00.000Z",
     "raffler": "alice.near",
     "participants": [
       {
@@ -72,13 +72,13 @@
     ],
     "transactions": [
       {
-        "txn_hash": "5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
         "buyer_id": "example-id.near",
         "date": "2023-05-01T10:30:00.000Z",
         "tickets_bought": 250
       },
       {
-        "txn_hash": "2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
         "buyer_id": "example-id.near",
         "date": "2023-05-02T08:45:00.000Z",
         "tickets_bought": 250
@@ -97,7 +97,7 @@
     "total_ticket_sold": 500,
     "ticket_cost": 1.5,
     "start_date": "2023-05-01T00:00:00.000Z",
-    "end_date": "2023-25-10T00:00:00.000Z",
+    "end_date": "2023-05-11T00:00:00.000Z",
     "raffler": "alice.near",
     "participants": [
       {
@@ -115,13 +115,529 @@
     ],
     "transactions": [
       {
-        "txn_hash": "5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
         "buyer_id": "example-id.near",
         "date": "2023-05-01T10:30:00.000Z",
         "tickets_bought": 250
       },
       {
-        "txn_hash": "2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 4,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-164491525713482",
+    "nft_title": "Astropups #6929",
+    "image_url": "https://nearnaut.mypinata.cloud/ipfs/QmSk8VicsA2s6NcFcZ4uKzvBGNqHgQKpiZVXpKKiXYqhHK",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 5,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-16449102690810",
+    "nft_title": "Astropups #850",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/Qmcysn5AFxzDxaWcEDJD2vaL42Ur4jaicVkQ1bubodfRyn",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 6,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-16449113349171",
+    "nft_title": "Astropups #2130",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/QmTPnQsHpuYqY4gpgjwHPSd7Zcf96Rs4wyBdcg349JWQwZ",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 7,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-16449131046247",
+    "nft_title": "Astropups #4254",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/QmThxCL5e5cuwTZBP2AaxQ6HzXaiwVrcygD29eo7f9VqpH",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 8,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-16449105365970",
+    "nft_title": "Astropups #1185",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/QmTzae8NkJG9ZMQJn3k4VnV7mM7DXy8PexZJjjuB68ChAj",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 9,
+    "nft_collection": "astropup.near",
+    "nft_id": "token-pups-16449096430530",
+    "nft_title": "Astropups #93",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/QmNw5d3FghriA38UeUavLdXv1iJ6aywJLPsY9ptNCXaYuu",
+    "floor_price": "1270000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 10,
+    "nft_collection": "bnehedz-by-bonehedznear",
+    "nft_id": "493061:1",
+    "nft_title": "BH 💀17 #1",
+    "image_url": "https://byzantion.mypinata.cloud/ipfs/bafybeiffvhin7lnjjffemoiuys3kyd6ti6urrqsnjyyviq7k4agwmyle7a",
+    "floor_price": "4770000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-19T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 11,
+    "nft_collection": "mutantsnft.near",
+    "nft_id": "1645",
+    "nft_title": "mutant #1644",
+    "image_url": "https://d2lkjq54w6nmkm.cloudfront.net/collections/mutantsnft.near/1644.png",
+    "floor_price": "50000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-02T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 12,
+    "nft_collection": "mutantsnft.near",
+    "nft_id": "808",
+    "nft_title": "mutant #807",
+    "image_url": "https://d2lkjq54w6nmkm.cloudfront.net/collections/mutantsnft.near/807.png",
+    "floor_price": "50000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-02T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 13,
+    "nft_collection": "mutantsnft.near",
+    "nft_id": "808",
+    "nft_title": "mutant #801",
+    "image_url": "https://d2lkjq54w6nmkm.cloudfront.net/collections/mutantsnft.near/801.png",
+    "floor_price": "50000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-02T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 14,
+    "nft_collection": "mutantsnft.near",
+    "nft_id": "2959",
+    "nft_title": "mutant #2958",
+    "image_url": "https://d2lkjq54w6nmkm.cloudfront.net/collections/mutantsnft.near/2958.png",
+    "floor_price": "50000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-02T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 15,
+    "nft_collection": "mutantsnft.near",
+    "nft_id": "2864",
+    "nft_title": "mutant #2863",
+    "image_url": "https://d2lkjq54w6nmkm.cloudfront.net/collections/mutantsnft.near/2863.png",
+    "floor_price": "50000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-05-02T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "example-transaction-5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "example-transaction-2d1677c11d1e9bdaa10a3d3fb7a3fde6",
         "buyer_id": "example-id.near",
         "date": "2023-05-02T08:45:00.000Z",
         "tickets_bought": 250
