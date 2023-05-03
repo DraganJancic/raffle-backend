@@ -144,9 +144,9 @@
     "raffler": "alice.near"
   },
   {
-    "raffle_id": 5,
+    "raffle_id": 6,
     "nft_collection": "mtvrsnftcontract.near",
-    "nft_id": "metamon:101745",
+    "nft_id": "metamon:101746",
     "nft_title": "Faction Humanoid #3865",
     "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
     "floor_price": "190000000000000000000000",

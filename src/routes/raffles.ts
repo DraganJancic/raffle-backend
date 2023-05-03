@@ -12,6 +12,6 @@ router.get('/', getRaffles);
 router.post('/create-raffle', createRaffle);
 
 //Delete raffle by id
-router.delete('/raffles/:id', deleteRaffle);
+router.delete('/:id', deleteRaffle);
 
 export default router;

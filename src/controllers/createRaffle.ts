@@ -5,15 +5,17 @@ import path from 'path';
 
 export const createRaffle = (req: Request, res: Response) => {
   const raffleData: Omit<Raffle, 'raffle_id'> = req.body;
+  console.log('CREATE')
 
   if (!raffleData.nft_id || !raffleData.ticket_cost) {
     return res.status(400).json({ message: 'Invalid raffle data' });
   }
 
   try {
+    // Construct the path to the raffle.json file that contains the raffle data
     const rafflesFilePath = path.join(__dirname, '..', 'dummy-data', 'raffle.json');
 
-
+    // Read the content of the raffle.json file and parse it into a JavaScript object
     const raffles = JSON.parse(fs.readFileSync(rafflesFilePath, 'utf8'));
 
     // Check if a raffle with the given nft_id already exists
