@@ -127,35 +127,5 @@
         "tickets_bought": 250
       }
     ]
-  },
-  {
-    "raffle_id": 4,
-    "nft_collection": "mtvrsnftcontract.near",
-    "nft_id": "metamon:101747",
-    "nft_title": "Faction Humanoid #3865",
-    "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
-    "floor_price": "190000000000000000000000",
-    "total_tickets": 1000,
-    "total_tickets_volume": 1500,
-    "total_ticket_sold": 500,
-    "ticket_cost": 1.5,
-    "start_date": "2023-05-01T00:00:00.000Z",
-    "end_date": "2023-25-10T00:00:00.000Z",
-    "raffler": "alice.near"
-  },
-  {
-    "raffle_id": 6,
-    "nft_collection": "mtvrsnftcontract.near",
-    "nft_id": "metamon:101746",
-    "nft_title": "Faction Humanoid #3865",
-    "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
-    "floor_price": "190000000000000000000000",
-    "total_tickets": 1000,
-    "total_tickets_volume": 1500,
-    "total_ticket_sold": 500,
-    "ticket_cost": 1.5,
-    "start_date": "2023-05-01T00:00:00.000Z",
-    "end_date": "2023-25-10T00:00:00.000Z",
-    "raffler": "alice.near"
   }
 ]

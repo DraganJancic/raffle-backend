@@ -5,7 +5,6 @@ import path from 'path';
 
 export const createRaffle = (req: Request, res: Response) => {
   const raffleData: Omit<Raffle, 'raffle_id'> = req.body;
-  console.log('CREATE')
 
   if (!raffleData.nft_id || !raffleData.ticket_cost) {
     return res.status(400).json({ message: 'Invalid raffle data' });

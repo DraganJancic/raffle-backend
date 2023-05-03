@@ -3,7 +3,6 @@ import fs from 'fs';
 import path from 'path';
 
 export const deleteRaffle = (req: Request, res: Response) => {
-  console.log("AAAAAA")
   const raffleId = parseInt(req.params.id, 10);
 
   // Read existing raffle data
