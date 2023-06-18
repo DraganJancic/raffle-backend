@@ -4,6 +4,7 @@ import { CustomError } from '../utils/error'
 
 export const getProfileInfo = async (req: Request, res: Response, next: NextFunction) => {
   try {
+
     // Destructure account_id from the request params
     const { accountId } = req.params;
     console.log(req.params)
