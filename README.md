@@ -20,13 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
 4. Setup environment variables:
     Create a .env file in the root directory with the following variables:
 
-      PORT=your_port
-      MONGO_URI=your_mongodb_connection_string
-      X_API_KEY=your_indexer_key
-      X_API_USER=your_indexer_user
-      ACCOUNT_ID=your_near_wallet_id
-      RAFFLE_CONTRACT_ID=your_raffle_contract_id_on_near_blockchain
-      BACKEND_ENVIRONMENT=your_backend_environment
+      PORT=your_port  
+      MONGO_URI=your_mongodb_connection_string  
+      X_API_KEY=your_indexer_key  
+      X_API_USER=your_indexer_user  
+      ACCOUNT_ID=your_near_wallet_id  
+      RAFFLE_CONTRACT_ID=your_raffle_contract_id_on_near_blockchain  
+      BACKEND_ENVIRONMENT=your_backend_environment  
 
     For BACKEND_ENVIRONMENT, options are: `localhost`, `development`, `production`.
 
