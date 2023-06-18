@@ -1,25 +1,34 @@
 import express from 'express';
-import { getRaffles } from '../controllers/getRaffles';
 import { createRaffle } from '../controllers/createRaffle';
-import { deleteRaffle } from '../controllers/deleteRaffle';
+import { buyTickets } from '../controllers/buyTickets';
+import { cancelRaffle } from '../controllers/cancelRaffle';
 import { getFeaturedRaffles } from '../controllers/getFeaturedRaffles';
 import { getPastRaffles } from '../controllers/getPastRaffles';
+import { getCurrentRaffles } from '../controllers/getCurrentRaffles';
+import { getAllNftCollections } from '../controllers/getAllNftCollections'
 
 const router = express.Router();
 
-// Route for fetching raffle list data
-router.get('/', getRaffles);
+// Route for fetching current raffles
+router.post('/current', getCurrentRaffles);
 
-// Route for fetching featured raffles
+// Route for fetching featured raffless
 router.get('/featured', getFeaturedRaffles);
 
 // Route for fetching past raffles
-router.get('/past', getPastRaffles);
+router.post('/past', getPastRaffles);
 
-// Add route for adding raffles
+// Route for adding raffles
 router.post('/create-raffle', createRaffle);
 
-//Delete raffle by id
-router.delete('/:id', deleteRaffle);
+// Route for buying tickets
+router.post('/buy-tickets', buyTickets)
+
+// Route for canceling raffle
+router.post('/cancel-raffle', cancelRaffle)
+
+// Route for fetching all collections involved in raffles
+router.get('/collections', getAllNftCollections)
+
 
 export default router;

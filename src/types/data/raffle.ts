@@ -22,11 +22,12 @@ export interface Raffle {
   total_tickets: number;
   total_tickets_volume: number;
   total_ticket_sold: number;
-  ticket_cost: number;
+  ticket_price: number;
   start_date: string;
   end_date: string;
   raffler: string; // ko je kreirao?
   participants: RaffleParticipants[];
   transactions: RaffleTransactions[]
+  winner: null | string
 }
 

@@ -1,5 +1,6 @@
 {
   "watch": [
+    "src/",
     "index.ts",
     "dummy-data/todos.json"
   ],

@@ -1,14 +1,14 @@
 import { Request, Response, NextFunction } from 'express';
 import RaffleModel from '../schemas/db/raffle'
-import { getPastRafflesSchema } from '../schemas/requests/requestSchemas'
+import { getCurrentRafflesSchema } from '../schemas/requests/requestSchemas'
 import { CustomError } from '../utils/error'
 
-type SortOptionKey = 'recent' | 'soldOut' | 'priceLH' | 'priceHL' | 'floorLH' | 'floorHL';
+type SortOptionKey = 'recent' | 'expiring' | 'sellingOut' | 'priceLH' | 'priceHL' | 'floorLH' | 'floorHL';
 type SortOption = { field: string; order: number; };
 
-export const getPastRaffles = async (req: Request, res: Response, next: NextFunction) => {
+export const getCurrentRaffles = async (req: Request, res: Response, next: NextFunction) => {
   // Validate the request body against the Joi schema
-  const { error } = getPastRafflesSchema.validate(req.body);
+  const { error } = getCurrentRafflesSchema.validate(req.body);
 
   // If the validation failed, create a custom error and pass it to the next middleware
   if (error) {
@@ -27,8 +27,9 @@ export const getPastRaffles = async (req: Request, res: Response, next: NextFunc
   const skip = (page - 1) * limit;
 
   const SORT_OPTIONS: Record<SortOptionKey, SortOption> = {
-    'recent': { field: 'end_date', order: -1 },
-    'soldOut': { field: 'tickets_sold', order: -1 },
+    'recent': { field: 'start_date', order: -1 },
+    'expiring': { field: 'end_date', order: 1 },
+    'sellingOut': { field: 'tickets_sold', order: -1 },
     'priceLH': { field: 'ticket_price', order: 1 },
     'priceHL': { field: 'ticket_price', order: -1 },
     'floorLH': { field: 'floor_price', order: 1 },
@@ -44,8 +45,8 @@ export const getPastRaffles = async (req: Request, res: Response, next: NextFunc
     sortQuery = { [field]: order };
   }
 
-  // Initialize the filter query for the MongoDB find method with raffle_ended: true
-  const filterQuery: any = { raffle_ended: true };
+  // Initialize the filter query for the MongoDB find method with raffle_ended: false
+  const filterQuery: any = { raffle_ended: false };
 
   // If the filters object includes the collection property, add it to the filter query
   if (filters.collection) {
@@ -65,15 +66,8 @@ export const getPastRaffles = async (req: Request, res: Response, next: NextFunc
   }
 
   // If the filters object includes the end_date property, add it to the filter query
-  // ensuring the date cannot be greater than the current date
   if (filters.end_date) {
-    const endDate = new Date(filters.end_date);
-    const now = new Date();
-    if (endDate > now) {
-      const err = new CustomError('End date cannot be in the future', 400);
-      return next(err);
-    }
-    filterQuery.end_date = { $lte: endDate };
+    filterQuery.end_date = { $lte: new Date(filters.end_date) };
   }
 
   try {
@@ -106,4 +100,6 @@ export const getPastRaffles = async (req: Request, res: Response, next: NextFunc
     // If any errors occurred, pass them to the next middleware
     return next(error);
   }
+
 };
+
