@@ -1,0 +1,161 @@
+[
+  {
+    "raffle_id": 1,
+    "nft_collection": "mtvrsnftcontract.near",
+    "nft_id": "metamon:102633",
+    "nft_title": "Faction Humanoid #3739",
+    "image_url": "https://gateway.pinata.cloud/ipfs/QmWYLe1znGH5Sa2CHyxanHvXsPN4yGkT6ak577hSWAcWTm",
+    "floor_price": "190000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-25-10T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 2,
+    "nft_collection": "mtvrsnftcontract.near",
+    "nft_id": "metamon:102633",
+    "nft_title": "Faction Humanoid #8315",
+    "image_url": "https://gateway.pinata.cloud/ipfs/QmZ5pCkjXcNS3PHDmTHgfWPrU5UBGx5w3a3Trj76iJMok4",
+    "floor_price": "190000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-25-10T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 3,
+    "nft_collection": "mtvrsnftcontract.near",
+    "nft_id": "metamon:101743",
+    "nft_title": "Faction Humanoid #3865",
+    "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
+    "floor_price": "190000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-25-10T00:00:00.000Z",
+    "raffler": "alice.near",
+    "participants": [
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      },
+      {
+        "wallet_id": "example-id.near",
+        "profile_url": "/profile/example-profile",
+        "twitter_url": "https://twitter.com/example-profile",
+        "tickets_bought": 250
+      }
+    ],
+    "transactions": [
+      {
+        "txn_hash": "5fa1e1b0a782e84a9ac20bf8f5a1a7d0",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-01T10:30:00.000Z",
+        "tickets_bought": 250
+      },
+      {
+        "txn_hash": "2d1677c11d1e9bdaa10a3d3fb7a3fde6",
+        "buyer_id": "example-id.near",
+        "date": "2023-05-02T08:45:00.000Z",
+        "tickets_bought": 250
+      }
+    ]
+  },
+  {
+    "raffle_id": 4,
+    "nft_collection": "mtvrsnftcontract.near",
+    "nft_id": "metamon:101747",
+    "nft_title": "Faction Humanoid #3865",
+    "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
+    "floor_price": "190000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-25-10T00:00:00.000Z",
+    "raffler": "alice.near"
+  },
+  {
+    "raffle_id": 5,
+    "nft_collection": "mtvrsnftcontract.near",
+    "nft_id": "metamon:101745",
+    "nft_title": "Faction Humanoid #3865",
+    "image_url": "https://gateway.pinata.cloud/ipfs/QmUMvk4at37njnXLk1qA1putTuwy3FbFnhXRyx3UXaKEs3",
+    "floor_price": "190000000000000000000000",
+    "total_tickets": 1000,
+    "total_tickets_volume": 1500,
+    "total_ticket_sold": 500,
+    "ticket_cost": 1.5,
+    "start_date": "2023-05-01T00:00:00.000Z",
+    "end_date": "2023-25-10T00:00:00.000Z",
+    "raffler": "alice.near"
+  }
+]
