@@ -7,7 +7,7 @@ import { BuyTicketsRequest } from '../types/requests/requestTypes'
 import { CustomError } from '../utils/error'
 
 
-
+//by ticket rest
 export const buyTickets = async (req: Request, res: Response, next: NextFunction) => {
 
   // Validate the request body against the schema
