@@ -46,7 +46,6 @@ export const createRaffle = async (req: Request, res: Response, next: NextFuncti
 
       let current_datetime: Date = new Date();
 
-      //new start
       // Check if the NFT Collection exists in the database.
       let nftCollection = await NftCollectionModel.findOne({ collection_id: contract_id });
 
@@ -62,7 +61,6 @@ export const createRaffle = async (req: Request, res: Response, next: NextFuncti
         nftCollection.latest_floor_price = getPriceInNearFromYoctoNumber(nftData.collection.floor);
         nftCollection = await nftCollection.save();
       }
-      //new end
 
       // add raffle to database
       const createdRaffle = await RaffleModel.create({

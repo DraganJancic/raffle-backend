@@ -12,10 +12,9 @@ export const updateRaffleStatusInDb = async (raffle_id: string) => {
     if (!raffle) throw new Error('Raffle not found');
 
     raffle.raffle_ended = true;
+    // we should also add logic for upadting winner once we figureout how we are
+    // going to ping blockchain and how response will look like
     await raffle.save();
-
-    // we should also add logic for upadting winner once we figureout how we are goint to ping blockchain
-    // and how response will look like
 
     console.log(`Raffle with id ${raffle_id} has been marked as ended`);
   } catch (error) {
